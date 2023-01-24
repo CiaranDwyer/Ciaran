@@ -15,7 +15,7 @@
                 <methods>
                     <include name="Banking365_NavigationPages"/>
                     <include name="Banking365_Successful_Login"/>
-                    <include name="pinPage"/>
+                    <include name="enterPAC"/>
                 </methods>
             </class>
         </classes>
