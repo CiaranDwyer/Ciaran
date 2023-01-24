@@ -14,7 +14,7 @@ import java.util.Properties;
 
 public class base_Setup_Browser {
 
-    Properties properties;
+    static Properties properties;
     FileInputStream myFile;
     WebDriver driver;
 
@@ -57,11 +57,10 @@ public class base_Setup_Browser {
             driver = new SafariDriver();
         }
         driver.navigate().to(properties.getProperty("URL"));
-
         return driver;
     }
 
-    public Properties getPropertiesObject(){
+    public static Properties getPropertiesObject(){
         return properties;
     }
 }
