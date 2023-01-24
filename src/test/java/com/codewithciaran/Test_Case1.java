@@ -45,6 +45,9 @@ public class Test_Case1 extends base_Test {
     @Test(dependsOnMethods = "Banking365_Successful_Login")
     public void enterPAC() throws InterruptedException {
         boi_pinPage = new boi_PinPage(driver);
+        boi_pinPage.enterPAC();
+        boi_pinPage.clickLogin ();
+
 
     }
 }

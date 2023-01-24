@@ -42,24 +42,28 @@ public class boi_PinPage {
         WebElement elementPinNum5 = driver.findElement(By.cssSelector("#C2__C2__C1__QUE_188DA78A3B0DB18F2504"));
         WebElement elementPinNum6 = driver.findElement(By.cssSelector("#C2__C2__C1__QUE_188DA78A3B0DB18F2505"));
 
-        if (elementPinNum1.isEnabled()) driver.findElement(pinNum1).sendKeys("0");
-        else if (elementPinNum2.isEnabled()) {
-            driver.findElement(pinNum2).sendKeys("7");
-            Thread.sleep(1000);
-        } else if (elementPinNum3.isEnabled()) {
-            driver.findElement(pinNum3).sendKeys("0");
-            Thread.sleep(1000);
-        } else if (elementPinNum4.isEnabled()) {
-            driver.findElement(pinNum4).sendKeys("8");
-            Thread.sleep(1000);
-        } else if (elementPinNum5.isEnabled()) {
-            driver.findElement(pinNum5).sendKeys("1");
-            Thread.sleep(1000);
-        } else if (elementPinNum6.isEnabled()) {
-            driver.findElement(pinNum6).sendKeys("9");
-            Thread.sleep(1000);
+        if (elementPinNum1.isEnabled ()) driver.findElement (pinNum1).sendKeys ("0");
+        if (elementPinNum2.isEnabled ()) {
+            driver.findElement (pinNum2).sendKeys ("7");
+            Thread.sleep (1000);
+        }
+        if (elementPinNum3.isEnabled ()) {
+            driver.findElement (pinNum3).sendKeys ("0");
+            Thread.sleep (1000);
+        }
+        if (elementPinNum4.isEnabled ()) {
+            driver.findElement (pinNum4).sendKeys ("8");
+            Thread.sleep (1000);
+        }
+        if (elementPinNum5.isEnabled ()) {
+            driver.findElement (pinNum5).sendKeys ("1");
+            Thread.sleep (1000);
+        }
+        if (elementPinNum6.isEnabled ()) {
+            driver.findElement (pinNum6).sendKeys ("9");
+            Thread.sleep (1000);
         } else {
-            System.out.println("incorrect pin entered");
+            System.out.println ("incorrect pin entered");
         }
     }
 
