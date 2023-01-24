@@ -20,7 +20,7 @@ public class Test_Case1 extends base_Test {
     public static Logger myLogs = LogManager.getLogger(Test_Case1.class.getName());
 
     @Test
-    public void Banking365_Login() {
+    public void Banking365_NavigationPages() {
 
         System.out.println("---------- TEST 1 -----------");
         myLogs.fatal("Fatal Message");
@@ -31,15 +31,12 @@ public class Test_Case1 extends base_Test {
 
         homepage1 = new boi_Homepage(driver);
         homepage1.acceptCookies();
-    }
-
-    @Test
-    public void clickLoginButton() {
         homepage1.clickLogin();
     }
 
+
     @Test
-    public void enterUserID() {
+    public void Banking365_Successful_Login() {
         loginPage = new boi_LoginPage(driver);
         loginPage.enterUserID();
     }
