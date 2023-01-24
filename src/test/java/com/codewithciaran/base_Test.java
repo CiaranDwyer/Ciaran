@@ -23,7 +23,6 @@ public class base_Test {
 
     @AfterTest(alwaysRun = true)
     public void tearDown() {
-        System.out.println("comment added");
         driver.quit();
     }
 }
