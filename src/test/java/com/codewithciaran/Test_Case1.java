@@ -4,6 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import pageObjects.boi_AuthPage;
 import pageObjects.boi_Homepage;
 import pageObjects.boi_LoginPage;
 import pageObjects.boi_PinPage;
@@ -17,6 +18,7 @@ public class Test_Case1 extends base_Test {
     boi_Homepage homepage1;
     boi_LoginPage loginPage;
     boi_PinPage boi_pinPage;
+    boi_AuthPage boi_authPage;
 
     public static Logger myLogs = LogManager.getLogger(Test_Case1.class.getName());
 
@@ -45,9 +47,14 @@ public class Test_Case1 extends base_Test {
     @Test(dependsOnMethods = "Banking365_Successful_Login")
     public void enterPAC() throws InterruptedException {
         boi_pinPage = new boi_PinPage(driver);
+        boi_pinPage.verifyPinText ();
         boi_pinPage.enterPAC();
-        boi_pinPage.clickLogin ();
+        boi_pinPage.clickLogin();
+    }
 
-
+    @Test
+    public void verifyAuthRequestIsSent(){
+        boi_authPage = new boi_AuthPage(driver);
+        boi_authPage.checkAuthMMessage();
     }
 }

@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,6 +109,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-All_Test_Suite" title="com.codewithciaran.Test_Case1" class="method navigator-link" hash-for-method="Banking365_Successful_Login">Banking365_Successful_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="com.codewithciaran.Test_Case1" class="method navigator-link" hash-for-method="enterPAC">enterPAC</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-All_Test_Suite -->
@@ -143,6 +148,13 @@
                   <span class="method-name">Banking365_Successful_Login</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterPAC">
+                  </a> <!-- enterPAC -->
+                  <span class="method-name">enterPAC</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-All_Test_Suite-class-passed -->
         </div> <!-- panel All_Test_Suite -->
@@ -164,7 +176,7 @@
         &lt;methods&gt;
           &lt;include name=&quot;Banking365_NavigationPages&quot;/&gt;
           &lt;include name=&quot;Banking365_Successful_Login&quot;/&gt;
-          &lt;include name=&quot;pinPage&quot;/&gt;
+          &lt;include name=&quot;enterPAC&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- com.codewithciaran.Test_Case1 --&gt;
     &lt;/classes&gt;
@@ -206,20 +218,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Banking365_Successful_Login')
 data.setCell(0, 2, 'com.codewithciaran.Test_Case1')
-data.setCell(0, 3, 4591);
+data.setCell(0, 3, 6061);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Banking365_NavigationPages')
+data.setCell(1, 1, 'enterPAC')
 data.setCell(1, 2, 'com.codewithciaran.Test_Case1')
-data.setCell(1, 3, 2870);
+data.setCell(1, 3, 4244);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Banking365_NavigationPages')
+data.setCell(2, 2, 'com.codewithciaran.Test_Case1')
+data.setCell(2, 3, 3289);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-All_Test_Suite">
               </div> <!-- times-div-All_Test_Suite -->
             </div> <!-- times-div -->
@@ -234,16 +250,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-All_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.codewithciaran.Test_Case1</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">enterPAC</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-All_Test_Suite" class="panel">
@@ -259,11 +268,15 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">Banking365_NavigationPages</span>
-                <span class="method-start">3616 ms</span>
+                <span class="method-start">3147 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Banking365_Successful_Login</span>
-                <span class="method-start">6492 ms</span>
+                <span class="method-start">6442 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterPAC</span>
+                <span class="method-start">12504 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
