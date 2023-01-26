@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a98b1da5-5af5-4950-aa97-8eb8b53a5f4e" name="Changes" comment="Ciaran Dwyer notification">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codewithciaran/base_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codewithciaran/base_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codewithciaran/base_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codewithciaran/base_Test.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Ciaran Dwyer &lt;ciarandwyer2005@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2KaMV2DkVBCRqIZeDA3LLZm2cxN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17773438" />
+    <property name="project.structure.side.proportion" value="0.2956335" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java/Resource" />
+      <recent name="$PROJECT_DIR$/src/main/java/resourcesssssss" />
+      <recent name="$PROJECT_DIR$/src/main/java/base_Setup" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/ciarand/IdeaProjects/Cucumber_Training/BrownThomas/testng.xml">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_Case1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BrownThomas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testNG_Listener.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codewithciaran" />
+      <option name="MAIN_CLASS_NAME" value="com.codewithciaran.Test_Case1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_Case1.Banking365_NavigationPages" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BrownThomas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codewithciaran.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codewithciaran" />
+      <option name="MAIN_CLASS_NAME" value="com.codewithciaran.Test_Case1" />
+      <option name="METHOD_NAME" value="Banking365_NavigationPages" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_Case1.enterPAC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BrownThomas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codewithciaran.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codewithciaran" />
+      <option name="MAIN_CLASS_NAME" value="com.codewithciaran.Test_Case1" />
+      <option name="METHOD_NAME" value="enterPAC" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_Case1.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BrownThomas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testNG_Listener.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codewithciaran" />
+      <option name="MAIN_CLASS_NAME" value="com.codewithciaran.Test_Case1" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/ciarand/IdeaProjects/Cucumber_Training/BrownThomas/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BrownThomas" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/ciarand/IdeaProjects/Cucumber_Training/BrownThomas/testng.xml" />
+        <item itemvalue="TestNG.Test_Case1" />
+        <item itemvalue="TestNG.Test_Case1.enterPAC" />
+        <item itemvalue="TestNG.Test_Case1.Banking365_NavigationPages" />
+        <item itemvalue="TestNG.Test_Case1.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a98b1da5-5af5-4950-aa97-8eb8b53a5f4e" name="Changes" comment="" />
+      <created>1674208262135</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674208262135</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Ciaran Dwyer">
+      <created>1674496408289</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674496408289</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ciaran Dwyer">
+      <created>1674558257191</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674558257191</updated>
+    </task>
+    <task id="LOCAL-00003" summary="made a few changes">
+      <created>1674559438571</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674559438571</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ciaran Dwyer">
+      <created>1674574853490</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674574853490</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ciaran Dwyer">
+      <created>1674575365413</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674575365413</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Ciaran Dwyer">
+      <created>1674575820463</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674575820463</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Ciaran Dwyer notification">
+      <created>1674577766569</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674577766569</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Ciaran Dwyer notification">
+      <created>1674732674525</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674732674525</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="made a few changes" />
+    <MESSAGE value="Ciaran Dwyer" />
+    <MESSAGE value="Ciaran Dwyer notification" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ciaran Dwyer notification" />
+  </component>
+</project>
