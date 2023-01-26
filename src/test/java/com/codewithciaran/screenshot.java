@@ -32,7 +32,7 @@ public class screenshot {
                 screenshot.renameTo(new File(" screenshot.png"));
             }
             // Close the browser
-            //  ADDING COMMENTS
+            //  REMOVED COMMENTS
             driver.quit();
         }
     }
