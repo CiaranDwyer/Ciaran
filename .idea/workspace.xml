@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a98b1da5-5af5-4950-aa97-8eb8b53a5f4e" name="Changes" comment="Ciaran Dwyer notification">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codewithciaran/base_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codewithciaran/base_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codewithciaran/base_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codewithciaran/base_Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codewithciaran/screenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codewithciaran/screenshot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
