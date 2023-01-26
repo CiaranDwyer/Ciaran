@@ -1,5 +1,6 @@
 pageObjects/boi_PinPage.class
 pageObjects/boi_Homepage.class
 base_Setup/base_Setup_Browser.class
+pageObjects/boi_AuthPage.class
 Util/extentReportSetup.class
 pageObjects/boi_LoginPage.class

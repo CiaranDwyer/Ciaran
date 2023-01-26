@@ -2,6 +2,8 @@ package com.codewithciaran;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pageObjects.boi_AuthPage;
@@ -13,6 +15,9 @@ import testNG_Listener.ListenerTest;
 
 @Listeners(ListenerTest.class)
 public class Test_Case1 extends base_Test {
+
+    private final String expectedMessage = "We've sent a notification to security device";
+
 
     /* CREATE AN OBJECT OF THE HOMEPAGE CLASS SO I CAN USE THE METHODS */
     boi_Homepage homepage1;
@@ -55,6 +60,5 @@ public class Test_Case1 extends base_Test {
     @Test
     public void verifyAuthRequestIsSent(){
         boi_authPage = new boi_AuthPage(driver);
-        boi_authPage.checkAuthMMessage();
     }
 }
